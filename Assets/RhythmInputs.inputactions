@@ -1,0 +1,126 @@
+{
+    "version": 1,
+    "name": "RhythmInputs",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "d7907038-b66d-4725-ba56-8f868c5115ab",
+            "actions": [
+                {
+                    "name": "CatcherMove",
+                    "type": "Button",
+                    "id": "7cd98b54-121c-4db2-a6e2-2c6f3d06de52",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Lane1Judge",
+                    "type": "Button",
+                    "id": "27166e8b-3ef8-405a-abe8-22fbd633ee17",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Lane2Judge",
+                    "type": "Button",
+                    "id": "a58a0417-c2da-403e-8352-d9407da5366d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Lane3Judge",
+                    "type": "Button",
+                    "id": "262eacab-e79e-4648-8831-d74455a741a7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Lane4Judge",
+                    "type": "Button",
+                    "id": "9f8f1fd8-3014-4938-992d-80ad5349421e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d642a068-0a51-4fed-b1e9-55fd7bf7b0cf",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CatcherMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b12c5a3e-fb30-4f91-9ce8-c2416f765e89",
+                    "path": "<Keyboard>/rightShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CatcherMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d13638a7-dd2f-40d5-8e4c-22b992784d6e",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lane1Judge",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e23757d-165c-49de-95c1-42d8b37f3141",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lane2Judge",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "699371af-0c6d-4934-bfd9-5bd43b07e233",
+                    "path": "<Keyboard>/period",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lane3Judge",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d5416ca5-9ab2-42dd-82dc-461b68a3323f",
+                    "path": "<Keyboard>/slash",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lane4Judge",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

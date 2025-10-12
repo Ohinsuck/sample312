@@ -1,0 +1,25 @@
+#Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild*/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+#IDE
+.vs/
+.vscode/
+*.sln
+*.csproj
+*.user
+*.unityproj
+
+#OS
+.DS_Store
+Thumbs.db
+
+#Keep essential project folders
+!Assets/** 
+!ProjectSettings/** 
+!Packages/**
